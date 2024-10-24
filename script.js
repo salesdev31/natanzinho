@@ -15,7 +15,7 @@ document.querySelector('.submit').addEventListener('click', async(e)=> {
     document.querySelector('.div_results').classList.remove('hidden')
     console.log(temp)
 
-    document.querySelector('.results').innerHTML = `Natanzinho diz a temperatura certa:  ${input} : ${temp}°` 
+    document.querySelector('.results').innerHTML = `Nathanzinho diz a temperatura certa:  ${input} : ${temp}°` 
 
 })
 
